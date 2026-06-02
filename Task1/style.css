@@ -1,0 +1,115 @@
+body{
+    
+    background-color: black;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.main,.html,.css,.javascript,.python,.java,.sql{
+    font-size: large;
+    font-style: italic;
+    font-weight: 600;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 30px;
+   box-shadow:
+    8px 8px 20px rgb(255, 255, 255),
+    -4px -4px 15px rgba(254, 253, 253, 0.853);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+.main:hover,.html:hover,.css:hover,.javascript:hover,.python:hover,.java:hover,.sql:hover{
+    transform: translateY(-10px);
+    box-shadow:
+        0 20px 40px rgba(0,0,0,0.6),
+        0 0 25px rgba(255,255,255,0.2);
+}
+
+.navbar {
+    color:aliceblue;
+    height: 50px;
+    width: 100vw;
+    top: 0px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: grey;
+    transition: background-color 0.5s ease;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(255,255,255,0.15);
+    z-index: 1000;
+
+
+}
+
+.main{
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+    border: 2px solid black;
+    margin: 2px;
+    top: 50px;
+    
+   
+}
+.html{
+    height: 100vh;
+    background-color: rgb(8, 250, 194);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(163, 255, 241);
+    margin: 2px;
+
+   
+}
+.css{
+    height: 100vh;
+    background-color: rgb(248, 240, 149);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(249, 255, 84);
+    margin: 2px;
+
+
+   
+}
+.javascript{
+    height: 100vh;
+    background-color: rgb(243, 173, 255);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(245, 170, 245);
+    margin: 2px;
+
+   
+   
+}
+.python{
+    height: 100vh;
+    background-color: rgb(160, 125, 236);
+    color: rgb(15, 15, 16);
+    border: 2px solid rgb(215, 137, 244);
+    margin: 2px;
+
+  
+   
+}
+.java{
+    height: 100vh;
+    background-color: rgb(255, 107, 107);
+    color: rgb(9, 9, 9);
+    border: 2px solid rgb(255, 170, 170);
+    margin: 2px;
+  
+   
+}
+.sql{
+    height: 100vh;
+    background-color: rgb(244, 129, 72);
+    color: rgb(9, 9, 9);
+    border: 2px solid rgb(249, 159, 103);
+    margin: 2px;
+  
+   
+}
